@@ -13,6 +13,12 @@
 		FAB9A4BB28D44ABC003B8C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB9A4B928D44ABC003B8C42 /* Main.storyboard */; };
 		FAB9A4BD28D44ABF003B8C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB9A4BC28D44ABF003B8C42 /* Assets.xcassets */; };
 		FAB9A4C028D44ABF003B8C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB9A4BE28D44ABF003B8C42 /* LaunchScreen.storyboard */; };
+		FAB9A4CD28D44AFD003B8C42 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9A4C728D44AFD003B8C42 /* Reachability.swift */; };
+		FAB9A4CE28D44AFD003B8C42 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9A4C828D44AFD003B8C42 /* Validations.swift */; };
+		FAB9A4CF28D44AFD003B8C42 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9A4C928D44AFD003B8C42 /* Extension.swift */; };
+		FAB9A4D028D44AFD003B8C42 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9A4CA28D44AFD003B8C42 /* Utility.swift */; };
+		FAB9A4D128D44AFD003B8C42 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9A4CB28D44AFD003B8C42 /* Cancellable.swift */; };
+		FAB9A4D228D44AFD003B8C42 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9A4CC28D44AFD003B8C42 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		FAB9A4BC28D44ABF003B8C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB9A4BF28D44ABF003B8C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB9A4C128D44ABF003B8C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB9A4C728D44AFD003B8C42 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FAB9A4C828D44AFD003B8C42 /* Validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		FAB9A4C928D44AFD003B8C42 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FAB9A4CA28D44AFD003B8C42 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		FAB9A4CB28D44AFD003B8C42 /* Cancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		FAB9A4CC28D44AFD003B8C42 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				FAB9A4B328D44ABC003B8C42 /* AppDelegate.swift */,
 				FAB9A4B528D44ABC003B8C42 /* SceneDelegate.swift */,
 				FAB9A4B728D44ABC003B8C42 /* ViewController.swift */,
+				FAB9A4CB28D44AFD003B8C42 /* Cancellable.swift */,
+				FAB9A4C928D44AFD003B8C42 /* Extension.swift */,
+				FAB9A4CC28D44AFD003B8C42 /* NetworkManager.swift */,
+				FAB9A4C728D44AFD003B8C42 /* Reachability.swift */,
+				FAB9A4CA28D44AFD003B8C42 /* Utility.swift */,
+				FAB9A4C828D44AFD003B8C42 /* Validations.swift */,
 				FAB9A4B928D44ABC003B8C42 /* Main.storyboard */,
 				FAB9A4BC28D44ABF003B8C42 /* Assets.xcassets */,
 				FAB9A4BE28D44ABF003B8C42 /* LaunchScreen.storyboard */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB9A4D228D44AFD003B8C42 /* NetworkManager.swift in Sources */,
+				FAB9A4D028D44AFD003B8C42 /* Utility.swift in Sources */,
 				FAB9A4B828D44ABC003B8C42 /* ViewController.swift in Sources */,
+				FAB9A4D128D44AFD003B8C42 /* Cancellable.swift in Sources */,
 				FAB9A4B428D44ABC003B8C42 /* AppDelegate.swift in Sources */,
+				FAB9A4CD28D44AFD003B8C42 /* Reachability.swift in Sources */,
+				FAB9A4CF28D44AFD003B8C42 /* Extension.swift in Sources */,
 				FAB9A4B628D44ABC003B8C42 /* SceneDelegate.swift in Sources */,
+				FAB9A4CE28D44AFD003B8C42 /* Validations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
