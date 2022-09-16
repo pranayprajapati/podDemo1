@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   	spec.name         = "podDemo1"
-  	spec.version      = "0.0.1"
+  	spec.version      = "0.0.2"
   	spec.summary      = "A description of podDemo1."
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
-	spec.ios.deployment_target = "15.4"
+	spec.ios.deployment_target = "14.0"
   	spec.swift_version = "5.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
