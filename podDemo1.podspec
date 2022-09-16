@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   	spec.name         = "podDemo1"
-  	spec.version      = "0.0.2"
+  	spec.version      = "0.0.4"
   	spec.summary      = "A description of podDemo1."
 
   # This description is used to generate tags and improve search results.
@@ -67,9 +67,9 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   	spec.platform     = :ios
+  # spec.platform     = :ios
 
-  # spec.platform     = :ios, "5.0"
+   	spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
